@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Hello world action step
-        uses:  ULL-ESIT-PL-2021/hello-js-action-lochdeve@v1.0.1
+        uses:  ULL-ESIT-PL-2021/hello-js-action-lochdeve@v2.0.0
         id: hello
         with:
           who-to-greet: 'Carlos Garcia'
